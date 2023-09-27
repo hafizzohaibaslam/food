@@ -22,7 +22,7 @@ body {
     background-color: black !important;
 	transform: rotate(90deg);
     font-size:10px;
-	/* zoom: 70%; */
+	zoom: 70%;
 }
 
 .aligncenter {
