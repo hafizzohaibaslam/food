@@ -1,3 +1,26 @@
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    background-color: black !important;
+    transform-origin: top left;
+    transform: rotate(90deg) translateY(-100%);
+    width: 100vh;
+    height: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.rotated-container {
+    transform-origin: top left;
+    /* transform: rotate(90deg) */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Add your existing styles here */
 .header {
     background-image: url("../images/cover.jpg");
     height: 20vh;
@@ -6,24 +29,13 @@
 }
 
 .header h1 {
-    font-size: 80px;
+    font-size: 30px;
     padding: 20px;
     opacity: 1 !important;
 }
 
 .head_wrap {
     background-color: rgba(126, 196, 82, 0.5);
-}
-
-body {
-    overflow-x: hidden;
-	overflow-y: hidden;
-	margin: auto;
-    background-color: black !important;
-	transform: rotate(90deg);
-	zoom: 70%;
-    width:1920px;
-    height:1080px;
 }
 
 .aligncenter {
@@ -34,7 +46,7 @@ body {
 }
 
 p {
-    font-size: 26px;
+    font-size: 18px;
     color: white;
 }
 
