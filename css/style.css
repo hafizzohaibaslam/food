@@ -21,8 +21,7 @@ body {
 	margin: auto;
     background-color: black !important;
 	transform: rotate(90deg);
-    /* font-size:10px; */
-	zoom: 40%;
+	zoom: 30%;
 }
 
 .aligncenter {
