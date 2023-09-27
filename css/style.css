@@ -1,0 +1,42 @@
+.header {
+    background-image: url("../images/cover.jpg");
+    height: 20vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header h1 {
+    font-size: 80px;
+    padding: 20px;
+    opacity: 1 !important;
+}
+
+.head_wrap {
+    background-color: rgba(126, 196, 82, 0.5);
+}
+
+body {
+    overflow-x: hidden;
+	overflow-y: hidden;
+	margin: auto;
+    background-color: black !important;
+	transform: rotate(90deg);
+    font-size:10px;
+	/* zoom: 70%; */
+}
+
+.aligncenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 30px;
+    color: white;
+}
+
+.spancolor {
+    color: #dd9728;
+}

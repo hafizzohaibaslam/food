@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+
+    
+
+    <div class="container" style="">
+	<div class="row">
+        <div class="header aligncenter">
+            <div class="head_wrap">
+                <h1>Sandwiches & Bowls</h1>
+				<button class="btn btn-primary fullscreen_button">Full Screen</button>
+            </div>
+        </div>
+    </div>
+        <div class="row mt-5">
+            <p><span class="spancolor">Bowls: $4 </span>upgrade contain yellow rice, tomato, pickles, turnips, onions,
+                and
+                parsley served with pita.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <p class="spancolor text-center">GYRO | $8.99</p>
+                <p class="spancolor text-center">&nbsp;</p>
+                <p>Lamb and beef meat. Seasoned
+                    with herbs and spices, topped with lettuce, tomatoes and onion. Generously drizzled with cucumber
+                    sauce.</p>
+            </div>
+            <div class="col-md-6">
+                <p class="spancolor text-center">CHICKEN SHISH</p>
+                <p class="spancolor text-center">TAWOUK | $8.99</p>
+                <p>Grilled chicken marinated in yogurt and lemon garlic. Topped with tomatoes, pickles, turnips, and
+                    fries.
+                    Drizzled with our buttery red and white sauce. Served with garlic sauce.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <p class="spancolor text-center">SUJUK | $7.99</p>
+                <p>Spicy beef mix topped with lettuce and onions. Drizzled with
+                    our buttery red and white sauce.</p>
+            </div>
+            <div class="col-md-6">
+                <p class="spancolor text-center">SHISH KABOB | $8.99</p>
+                <p>Grilled tender cuts of beef marinated in the perfect blend of seasonings.
+                    Topped with tomatoes, pickles, turnips parsley, and Sumac red onion. Drizzled with our buttery red
+                    and white sauce. Served with Tahini.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <p class="spancolor text-center">BEEF SHAWARMA | $8.99</p>
+                <p class="spancolor text-center">OR LAMB | $9.99</p>
+                <p>Beef or lamb Shawarma marinated in our special spices and herbs. Topped with tomatoes, pickles,
+                    turnips, parsley, and Sumac red onions.
+                    Drizzled with our buttery red and white sauce. Served with Tahini.</p>
+            </div>
+            <div class="col-md-6">
+                <p class="spancolor text-center">LEBANESE FALAFEL | $8.99</p>
+                <p class="spancolor text-center">&nbsp;</p>
+                <p>Chickpeas and fava beans ground with veggies and spices, deep fried to fluffy perfection.
+                    Topped with lettuce, tomatoes, pickles, and turnips. Drizzled with our buttery red and white sauce.
+                    Served with Tahini. (V)</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <p class="spancolor text-center">CHICKEN SHAWARMA | $8.99</p>
+                <p>Chicken Shawarma marinated in our specialspices and herbs.
+                    Topped with tomatoes, pickles, turnips, and fries. Generously drizzled with our buttery red and
+                    white sauce. Served with garlic sauce.</p>
+            </div>
+            <div class="col-md-6">
+                <p class="spancolor text-center">MUJADARA BOWL | $8.99</p>
+                <p>Brown lentils & rice topped with sauteed onions, lettuce, and tomato. Drizzled with Tzatziki sauce.
+                    Served with pita. (AVAILABLE IN A BOWL ONLY) Vegans exclude sauce. (V)</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <p class="spancolor text-center">KAFTA KABOB | $7.99</p>
+                <p>Grilled kafta kabob, seasoned minced beef, topped with tomatoes, pickles, turnips, parsley, and Sumac
+                    red onion.
+                    Drizzled with our buttery red and white sauce. Served with pita Tahini.</p>
+            </div>
+            <div class="col-md-6">
+                <p><span class="spancolor">Make it a combo: </span>Pop and your choice of fries or soup. | $3</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <p class="spancolor">Build your own | $9.99 </p>
+            </div>
+            <div class="col-md-4">
+                <p>Choice of Protein</p>
+            </div>
+            <div class="col-md-4">
+                <p>Choice of 5 Toppings</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p>Lettuce, Tomato, Cucumber, Red onion, Sumac red onion, Turnips, Pickles, Fries, Rice, Feta Cheese,
+                    616 sauce, Red sauce,
+                    White sauce, Garlic sauce(v), Tahini(v), Tahini plus(v), Spicy boom boom, Tzatziki sauce, Mango
+                    spicy Amba sauce(v), Hummus(v),
+                    Fattoush dressing(v), Tabbouleh dressing(v).</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- custom script -->
+    <script src="js/script.js"></script>
+    <!-- bootstrap scripts -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- jquery -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $(".fullscreen_button").on("click", function () {
+                (document.fullScreenElement && null !== document.fullScreenElement) ||
+                    (!document.mozFullScreen && !document.webkitIsFullScreen)
+                    ? document.documentElement.requestFullScreen
+                        ? document.documentElement.requestFullScreen()
+                        : document.documentElement.mozRequestFullScreen
+                            ? document.documentElement.mozRequestFullScreen()
+                            : document.documentElement.webkitRequestFullScreen &&
+                            document.documentElement.webkitRequestFullScreen(
+                                Element.ALLOW_KEYBOARD_INPUT
+                            )
+                    : document.cancelFullScreen
+                        ? document.cancelFullScreen()
+                        : document.mozCancelFullScreen
+                            ? document.mozCancelFullScreen()
+                            : document.webkitCancelFullScreen && document.webkitCancelFullScreen();
+            $('.fullscreen_button').hide();
+            });
+        });
+
+    </script>
+</body>
+
+</html>
