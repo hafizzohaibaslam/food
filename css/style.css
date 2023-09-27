@@ -21,7 +21,7 @@ body {
 	margin: auto;
     background-color: black !important;
 	transform: rotate(90deg);
-	/* zoom: 60%; */
+	zoom: 70%;
     width:1920px;
     height:1080px;
 }
